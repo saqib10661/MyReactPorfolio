@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.social-container {
+  position: absolute;
+  bottom:0;
+  
+}
+.social-container a {
+  margin-left: 10px;
+}
+
+
+
+
