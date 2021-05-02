@@ -1,5 +1,10 @@
+
 .App {
+  
   text-align: center;
+  display:flex;
+  flex-direction:column;
+  
 }
 
 .App-logo {
@@ -38,18 +43,96 @@
 }
 
 .App {
+
+  min-height: 100%;
+  margin:0;
+  
+  
   font-family: sans-serif;
   text-align: center;
+
+  background-image: url(./background3.jpeg);
+ 
+  background-size:cover;
+
+  
+
 }
 
+
 .social-container {
-  position: absolute;
-  bottom:0;
+  margin:0;
+  mix-blend-mode:lighten;
   
 }
+
+
 .social-container a {
-  margin-left: 10px;
+  margin-left: 20px;
+
+  
 }
+
+.home h1{
+  color:white;
+  font-size:8em;
+  margin-bottom:100px;
+}
+
+.home h2{
+  color:white;
+  font-size: 5em;
+  margin-bottom: 100px;;
+}
+
+.home h3{
+  color:white;
+  font-size:3em;
+  margin-bottom: 100px;
+}
+
+.about{
+  color:white;
+  text-align: justify;
+  padding: 10px 200px 0px 200px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+
+.me{
+  width:60%;
+  margin-bottom: 64px;
+  padding: 0 75px 0 0 ;
+}
+
+.me h1{
+  color: white;
+  width:180%;
+  font-size:5em;
+  font-style: oblique;
+  
+}
+
+.imageabout img{
+  
+  position:absolute;
+  top:150px;
+  left:800px;
+  width:450px;
+  height:455px;
+  border-radius:0 50% 50% 50%;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+
+.me h3{
+  color:white;
+  position:relative;
+  left:600px;
+}
+
+
 
 
 

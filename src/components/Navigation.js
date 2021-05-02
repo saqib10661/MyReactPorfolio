@@ -13,9 +13,9 @@ import {
   FormControl,
   Button
 } from "react-bootstrap";
-import Home from "./Home";
-import About from "./About";
-import Contact from "./Contact";
+import Home from "../pages/Home";
+import About from "../pages/About";
+import Portfolio from "../pages/Portfolio";
 
 class Navigation extends React.Component {
   render() {
@@ -30,7 +30,7 @@ class Navigation extends React.Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/contact">Contact</Nav.Link>
+                    <Nav.Link href="/portfolio">Portfolio</Nav.Link>
                     <Nav.Link href="/about">About</Nav.Link>
                     <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                       <NavDropdown.Item href="#action/3.1">
@@ -66,8 +66,8 @@ class Navigation extends React.Component {
                 <Route path="/about">
                   <About />
                 </Route>
-                <Route path="/contact">
-                  <Contact />
+                <Route path="/portfolio">
+                  <Portfolio />
                 </Route>
               </Switch>
             </Router>
