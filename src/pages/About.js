@@ -1,5 +1,5 @@
 import React from "react";
-import image from './Saqib.jpg' ;
+import image from '../images/Saqib.jpg';
 
 function About() {
   return (
@@ -26,7 +26,7 @@ function About() {
       <div className="imageabout">
         <img src={image} alt="" />
       </div>
-      <h3>Saqib Mahmood<br/>(Msc Advanced Computer Science Graduate)</h3>
+      <h3 id="me">Saqib Mahmood<br/>(Msc Advanced Computer Science Graduate)</h3>
   </div>
   )
 }

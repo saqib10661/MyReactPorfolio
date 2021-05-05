@@ -51,15 +51,20 @@
   font-family: sans-serif;
   text-align: center;
 
-  background-image: url(./background3.jpeg);
+  background-image: url(./images/background3.jpeg);
  
-  background-size:cover;
+  background-size:contain;
 
   
 
 }
 
+.logo{
+  width:70px;
+  height:45px;
+}
 
+/* ---------------------------Social Media buttons ------------------------------------------------*/
 .social-container {
   margin:0;
   mix-blend-mode:lighten;
@@ -72,17 +77,26 @@
 
   
 }
+/* ---------------------------Home page css------------------------------------------------*/
+.home{
+  background-image: url("./images/background4.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .home h1{
   color:white;
   font-size:8em;
   margin-bottom:100px;
+ 
 }
 
 .home h2{
   color:white;
   font-size: 5em;
-  margin-bottom: 100px;;
+  margin-bottom: 85px;;
 }
 
 .home h3{
@@ -90,16 +104,14 @@
   font-size:3em;
   margin-bottom: 100px;
 }
-
-.about{
-  color:white;
-  text-align: justify;
-  padding: 10px 200px 0px 200px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: bold;
-}
-
-
+/* ---------------------------About page css------------------------------------------------*/
+  .about{
+    color:white;
+    text-align: justify;
+    padding: 10px 200px 0px 200px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+  }
 .me{
   width:60%;
   margin-bottom: 64px;
@@ -132,6 +144,70 @@
   left:600px;
 }
 
+/*-----------------------------------------------Portfolio page----------------------------
+.invaderimg img{
+  position:absolute;
+  top:200px;
+  left:200px;
+  width:250px;
+  height:200px;
+  margin-top: 50px;
+  border: 1px solid white;
+}
+*/
+.portfolio h1{
+  font-size: 100px;
+  color: white;
+  margin-bottom: 386px ;
+}
+/*
+.paragraph{
+  position:relative;
+  text-align: justify;
+  top:-300px;
+  left:600px;
+  color: white;
+}
+*/
+
+.card1 img{
+  
+    position:absolute;
+    width:300px;
+    height:250px;
+    left:100px;
+    bottom:250px;
+    border: 1px solid white;
+}
+
+.card1 p{
+  position:relative;
+  bottom:250px;
+  font-size: 18px;
+  color: white;
+  margin-left: 500px;
+  margin-right: 100px;
+  text-align: justify;
+}
+
+.card2 img{
+  position:absolute;
+  width:300px;
+  height:250px;
+  left:100px;
+  top:560px;
+  border: 1px solid white;
+}
+
+.card2 p{
+  position:relative;
+  bottom:50px;
+  font-size: 18px;
+  color: white;
+  margin-left: 510px;
+  margin-right: 100px;
+  text-align: justify;
+}
 
 
 

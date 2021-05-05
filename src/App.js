@@ -6,7 +6,8 @@ import SocialButtons from "./components/SocialButtons";
 function App() {
   return (
     <div className="App">
-      <Navigation />
+      
+       <Navigation />
       <SocialButtons />
     </div>
   );
