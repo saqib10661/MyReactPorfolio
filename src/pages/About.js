@@ -14,11 +14,11 @@ function About() {
       <p className="about">
       Now my aim is to find a job in the Computer Science industry. 
       Although i do not have much experience in the work industry, 
-      I am excited to broaden my horizons by working in a computer 
-      based industry in the near future, but i have worked in small sectors 
-      such as the retail sector which have greatly added to my confidence in 
+      I am excited to broaden my horizons by working in a development
+      based role in the near future, but i have worked in the retail 
+      sector which have greatly added to my confidence in 
       working in teams and understanding other peoples points of view. I am very
-      patient, enthusiastic and creative. In university the aspects i greatly enjoyed some of these were 
+      patient, enthusiastic and creative. In university the aspects i greatly enjoyed were 
       learning about Python, Java, C#, Javascript, HTML and CSS. In my own time i created this website
       using React.js to showcase my portfolio which will help me gain work possibilities and i hope 
       to learn more as i gain further experience.
