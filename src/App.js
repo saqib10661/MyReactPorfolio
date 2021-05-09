@@ -1,14 +1,14 @@
 import "./App.css";
 import React from "react";
 import Navigation from "./components/Navigation";
-import SocialButtons from "./components/SocialButtons";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       
        <Navigation />
-      <SocialButtons />
+        <Footer />
     </div>
   );
 }

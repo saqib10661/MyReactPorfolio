@@ -13,7 +13,8 @@ function Portfolio() {
             imgUrl={Gif}
             detail="Space invaders game using python. As you can see the invaders are being killed
             as the score goes up for each one there is 5 points. A game such as this was fun to
-            create and learn all the aspects of Python game development."/>
+            create and learn all the aspects of Python game development. Further enchancmenets
+            can be made such as adding more levels. This can be a future project."/>
 
       </div>
 
