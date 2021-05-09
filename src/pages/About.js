@@ -18,10 +18,10 @@ function About() {
       based industry in the near future, but i have worked in small sectors 
       such as the retail sector which have greatly added to my confidence in 
       working in teams and understanding other peoples points of view. I am very
-      patient, enthusiastic and creative. In university i have experienced a few 
-      programming languages which i greatly enjoyed some of these were 
-      Python, Java, C# etc and markup languages such as HTML and CSS which will
-        help me gain work possibilities and i hope to learn more as i gain further experience.
+      patient, enthusiastic and creative. In university the aspects i greatly enjoyed some of these were 
+      learning about Python, Java, C#, Javascript, HTML and CSS. In my own time i created this website
+      using React.js to showcase my portfolio which will help me gain work possibilities and i hope 
+      to learn more as i gain further experience.
       </p>
       <div className="imageabout">
         <img src={image} alt="" />
