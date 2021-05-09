@@ -1,11 +1,4 @@
 
-.App {
-  
-  text-align: center;
-  display:flex;
-  flex-direction:column;
-  
-}
 
 .App-logo {
   height: 40vmin;
@@ -44,16 +37,18 @@
 
 .App {
 
+  display:flex;
+  flex-direction:column;
+
   min-height: 100%;
   margin:0;
-  
-  
   font-family: sans-serif;
   text-align: center;
-
-  background-image: url(./images/background3.jpeg);
- 
-  background-size:contain;
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  max-width: 100%;
+  overflow-x: hidden;
 
   
 
@@ -65,8 +60,9 @@
 }
 
 /* ---------------------------Social Media buttons ------------------------------------------------*/
-.social-container {
-  margin:0;
+.footer {
+  margin-top:17px;
+  
   mix-blend-mode:lighten;
   
 }
@@ -79,9 +75,10 @@
 }
 /* ---------------------------Home page css------------------------------------------------*/
 .home{
-  background-image: url("./images/background4.gif");
+  background-image: url("./images/background2.gif");
   background-repeat: no-repeat;
   background-size: cover;
+  background-clip:inherit ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -121,8 +118,9 @@
 .me h1{
   color: white;
   width:180%;
-  font-size:5em;
+  font-size:6em;
   font-style: oblique;
+  text-shadow: 2px 2px 5px red;
   
 }
 
@@ -144,31 +142,14 @@
   left:600px;
 }
 
-/*-----------------------------------------------Portfolio page----------------------------
-.invaderimg img{
-  position:absolute;
-  top:200px;
-  left:200px;
-  width:250px;
-  height:200px;
-  margin-top: 50px;
-  border: 1px solid white;
-}
-*/
+/*-----------------------------------------------Portfolio page----------------------------*/
+
 .portfolio h1{
-  font-size: 100px;
+  font-size: 6em;
   color: white;
   margin-bottom: 386px ;
+  text-shadow: 2px 2px 5px red;
 }
-/*
-.paragraph{
-  position:relative;
-  text-align: justify;
-  top:-300px;
-  left:600px;
-  color: white;
-}
-*/
 
 .card1 img{
   
@@ -201,12 +182,127 @@
 
 .card2 p{
   position:relative;
-  bottom:50px;
+  bottom:60px;
   font-size: 18px;
   color: white;
   margin-left: 510px;
   margin-right: 100px;
   text-align: justify;
+}
+
+@media all and (min-width:500px) and (max-width:600px) {
+  
+      /* ---------------Home---------------------------*/
+      .home h1{
+        color:white;
+        font-size:7em;
+        margin-bottom:100px;
+      
+      }
+      
+      .home h2{
+        color:white;
+        font-size: 5em;
+        margin-bottom: 85px;;
+      }
+      
+      .home h3{
+        color:white;
+        font-size:3em;
+        margin-bottom: 100px;
+      }
+
+
+    /* ---------------About---------------------------*/
+    .about{
+        color:white;
+        text-align: justify;
+        padding: 10px 20px 50px 60px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+      }
+      
+    .me{
+      width:85%;
+      margin-bottom: 64px;
+      padding: 0 ;
+    }
+
+    .me h1{
+      color: white;
+      width:120%;
+      font-size:6em;
+      font-style: oblique;
+      text-shadow: 2px 2px 5px red;
+      
+    }
+
+    .imageabout img{
+      
+      position:relative;
+      top:30px;
+      left:55px;
+      width:200px;
+      height:200px;
+      border-radius:0 50% 50% 50%;
+      margin-top: 0px;
+      margin-bottom:0px;
+    }
+
+    .me h3{
+      color:white;
+      position:relative;
+      font-size:20px;
+      top:40px;
+      left:50px;
+    }
+
+    /* ---------------Portfolio---------------------------*/
+    .portfolio h1{
+      font-size: 6em;
+      color: white;
+      margin-bottom: 386px ;
+      text-shadow: 2px 2px 5px red;
+    }
+
+    .card1 img{
+      
+        position:absolute;
+        width:200px;
+        height:150px;
+        left:170px;
+        top:250px;
+        border: 1px solid white;
+    }
+
+    .card1 p{
+      position:relative;
+      top:-180px;
+      font-size: 14px;
+      color: white;
+      margin-left: 60px;
+      margin-right: 60px;
+      text-align: justify;
+    }
+
+    .card2 img{
+      position:absolute;
+      width:200px;
+      height:150px;
+      left:170px;
+      top:550px;
+      border: 1px solid white;
+    }
+
+    .card2 p{
+      position:relative;
+      top:-15px;
+      font-size: 14px;
+      color: white;
+      margin-left: 60px;
+      margin-right: 60px;
+      text-align: justify;
+    }
 }
 
 
