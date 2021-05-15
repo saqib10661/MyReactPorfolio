@@ -305,7 +305,7 @@
     }
 }
 
-@media all and (max-width:360px) {
+@media all and (min-width:360px) and (max-width:412px) {
   
   /* ---------------Home---------------------------*/
   .home h1{
@@ -405,7 +405,7 @@
   width:200px;
   height:150px;
   left:100px;
-  top:820px;
+  top:810px;
   border: 1px solid white;
 }
 
