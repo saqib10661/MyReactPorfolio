@@ -25,7 +25,7 @@ function Portfolio() {
           imgUrl={Gif2}
           detail="A Takeway management system created using java on eclipse. It can be used to
           calculate total order and discount aswell as convert differetn types of currencies.
-          Finally a recipet can be added to show the total of everything. It also has an extra
+          Finally a receipt can be added to show the total of everything. It also has an extra
           option of a calculator if needed." 
         />
       </div>
@@ -35,7 +35,7 @@ function Portfolio() {
         imgUrl={Gif3}
         detail="This is a News and Weather display system which is used with the Raspberry Pi
         and display the news on the left hand size the main portion in them middle is the 
-        weatehr for ther week and finally in the top right corner is a clock."
+        weather for ther week and finally in the top right corner is a clock."
         />
       </div>
 
