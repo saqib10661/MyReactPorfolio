@@ -2,6 +2,7 @@ import React from "react";
 import Gif from '../images/SpaceInvaders.gif'
 import PortfolioCards from '../components/PortfolioCards';
 import Gif2 from '../images/Takeaway-management.gif';
+import Gif3 from '../images/NewsandWeatherDisplay.gif';
 
 function Portfolio() {
   return (
@@ -26,6 +27,15 @@ function Portfolio() {
           calculate total order and discount aswell as convert differetn types of currencies.
           Finally a recipet can be added to show the total of everything. It also has an extra
           option of a calculator if needed." 
+        />
+      </div>
+
+      <div className="card3">
+        <PortfolioCards
+        imgUrl={Gif3}
+        detail="This is a News and Weather display system which is used with the Raspberry Pi
+        and display the news on the left hand size the main portion in them middle is the 
+        weatehr for ther week and finally in the top right corner is a clock."
         />
       </div>
 
