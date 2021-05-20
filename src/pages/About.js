@@ -19,7 +19,8 @@ function About() {
       sector which have greatly added to my confidence in 
       working in teams and understanding other peoples points of view. I am very
       patient, enthusiastic and creative. In university the aspects i greatly enjoyed were 
-      learning about Python, Java, C#, Javascript, HTML and CSS. In my own time i made this website
+      learning about Python, Java, C#, Javascript, HTML and CSS. In my own time i made
+       this website
       using React.js to showcase my portfolio which will help me gain work possibilities and i hope 
       to learn more as i gain further experience.
       </p>
